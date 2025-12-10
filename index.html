@@ -1,23 +1,461 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+  
+  
+  <title>검색할 필요 없는 포장이사 종결판! 수십 개 최상급 사이트가 당신을 위해 기다립니다</title>
+  
+
+
+  
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "name": "검색할 필요 없는 포장이사 종결판! 수십 개 최상급 사이트가 당신을 위해 기다립니다",
+          "url": "https://your-website.com/",
+          "potentialAction": {
+            "@type": "SearchAction",
+            "target": "https://your-website.com/search?q={search_term_string}",
+            "query-input": "required name=search_term_string"
+          }
+        },
+        {
+          "@type": "ItemList",
+          "name": "필수 이사 정보 및 업체 목록",
+          "description": "다양한 이사 서비스와 관련 정보를 제공하는 엄선된 링크 모음입니다.",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "item": {
+                "@type": "WebPage",
+                "name": "포장이사 서비스 비교",
+                "url": "https://movingbkindo.withusgoat.com"
+              }
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "item": {
+                "@type": "WebPage",
+                "name": "손없는날 이사 비용 차이 분석",
+                "url": "https://movingakindb.withusgoat.com"
+              }
+            },
+             {
+              "@type": "ListItem",
+              "position": 3,
+              "item": {
+                "@type": "WebPage",
+                "name": "이사 준비 체크리스트",
+                "url": "https://movingckindb.withusgoat.com"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+
+    <style>
+        :root {
+            /* 부드럽고 다채로운 파스텔 색상 팔레트 */
+            --color-primary: #5A67D8; /* 진한 보라색 */
+            --color-secondary: #81E6D9; /* 민트색 */
+            --color-background: #F8FAFC; /* 밝은 회색 배경 */
+            --color-card-1: #FEF3C7; /* 연한 노랑 */
+            --color-card-2: #D1FAE5; /* 연한 녹색 */
+            --color-card-3: #FEE2E2; /* 연한 빨강 */
+            --color-card-4: #E0F2FE; /* 연한 파랑 */
+            --color-card-5: #F3E8FF; /* 연한 보라 */
+            --color-text: #1A202C; /* 진한 글자색 */
+            --color-text-light: #4A5568; /* 중간 글자색 */
+        }
+
+        body {
+            font-family: 'Malgun Gothic', '맑은 고딕', 'Apple SD Gothic Neo', sans-serif;
+            background-color: var(--color-background);
+            color: var(--color-text);
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        /* 메인 헤더 스타일 */
+        header {
+            text-align: center;
+            padding: 40px 0;
+            margin-bottom: 30px;
+            background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+            color: white;
+            border-radius: 15px;
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+        }
+
+        /* 카테고리 섹션 스타일 */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .category-card {
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+        }
+
+        /* 카테고리별 색상 지정 */
+        .card-color-1 { background-color: var(--color-card-1); border-left: 5px solid #F59E0B; }
+        .card-color-2 { background-color: var(--color-card-2); border-left: 5px solid #10B981; }
+        .card-color-3 { background-color: var(--color-card-3); border-left: 5px solid #EF4444; }
+        .card-color-4 { background-color: var(--color-card-4); border-left: 5px solid #3B82F6; }
+        .card-color-5 { background-color: var(--color-card-5); border-left: 5px solid #8B5CF6; }
+        .card-color-6 { background-color: #fce7f3; border-left: 5px solid #EC4899; }
+        .card-color-7 { background-color: #e5e7eb; border-left: 5px solid #6B7280; }
+        .card-color-8 { background-color: #dbeafe; border-left: 5px solid #60A5FA; }
+        .card-color-9 { background-color: #fffbeb; border-left: 5px solid #FBBF24; }
+        .card-color-10 { background-color: #f0fdfa; border-left: 5px solid #06B6D4; }
+        .card-color-11 { background-color: #fef2f2; border-left: 5px solid #F87171; }
+        .card-color-12 { background-color: #f0fdf4; border-left: 5px solid #34D399; }
+        .card-color-13 { background-color: #eff6ff; border-left: 5px solid #6366F1; }
+        .card-color-14 { background-color: #faf5ff; border-left: 5px solid #A855F7; }
+        .card-color-15 { background-color: #fff7ed; border-left: 5px solid #FB923C; }
+
+        .category-card h2 {
+            font-size: 1.5em;
+            color: var(--color-text);
+            margin-top: 0;
+            margin-bottom: 10px;
+            border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+            padding-bottom: 5px;
+            font-weight: 600;
+        }
+
+        /* 설명 문구 스타일 */
+        .category-description {
+            display: block; /* A태그가 블록 레벨로 전체를 덮도록 */
+            font-size: 0.95em;
+            color: var(--color-text-light);
+            margin-bottom: 20px;
+            font-style: italic;
+            padding: 10px;
+            background-color: rgba(255, 255, 255, 0.7);
+            border-radius: 8px;
+            text-decoration: none; /* A태그 밑줄 제거 */
+            cursor: pointer;
+            transition: background-color 0.2s;
+        }
+
+        .category-description:hover {
+             background-color: rgba(255, 255, 255, 1);
+        }
+
+        /* 링크 리스트 스타일 */
+        .link-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        .link-list li {
+            margin-bottom: 8px;
+            padding: 5px 0;
+            border-bottom: 1px dashed rgba(0, 0, 0, 0.08);
+        }
+        .link-list li:last-child {
+            border-bottom: none;
+        }
+
+        .link-list a {
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s;
+        }
+
+        .link-list a:hover {
+            color: var(--color-text);
+            text-decoration: underline;
+        }
+
+        /* 반응형 디자인 */
+        @media (max-width: 768px) {
+            header {
+                padding: 20px 10px;
+            }
+            header h1 {
+                font-size: 2em;
+            }
+            header p {
+                font-size: 1em;
+            }
+            body {
+                padding: 10px;
+            }
+            .category-card {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <h1>검색할 필요 없는 포장이사 종결판! 수십 개 최상급 사이트가 당신을 위해 기다립니다</h1>
+            <p>성공적인 이사를 위한 포장, 보관, 견적, 손없는날 등 모든 필수 가이드</p>
+        </header>
+
+        <section class="category-grid">
+
+            <div class="category-card card-color-1">
+                <h2>길일(吉日) & 이사 날짜 가이드</h2>
+                <a class="category-description" href="https://movingakindd.withusgoat.com" target="_blank">
+                    마음을 편안하게 해주는 '손 없는 날'을 찾아보세요. 복이 들어오고 액운이 물러나는 특별한 이삿날 선택의 지혜가 담겨 있습니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingakinde.withusgoat.com" target="_blank">2월 이사 손없는날 정보</a></li>
+                    <li><a href="https://movingakindp.withusgoat.com" target="_blank">전체 손없는날 달력 확인</a></li>
+                    <li><a href="https://movingakindf.withusgoat.com" target="_blank">3월 이사 손없는날 상세 안내</a></li>
+                    <li><a href="https://movingdkindl.withusgoat.com" target="_blank">손있는날과 이사의 관계</a></li>
+                    <li><a href="https://movingakindg.withusgoat.com" target="_blank">4월 이사 손없는날</a></li>
+                    <li><a href="https://movingakindc.withusgoat.com" target="_blank">'손없는날 이사'의 의미와 이점</a></li>
+                    <li><a href="https://movingakindk.withusgoat.com" target="_blank">8월 이사 손없는날 확인하기</a></li>
+                    <li><a href="https://movingakindl.withusgoat.com" target="_blank">9월 이사 손없는날 정보</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-2">
+                <h2>포장이사 & 견적 비교 마스터</h2>
+                <a class="category-description" href="https://movingbkindo.withusgoat.com" target="_blank">
+                    이사의 모든 과정을 전문가에게 맡기는 포장이사! 스트레스 없는 이사를 위한 합리적인 견적 비교와 방법을 알려드립니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindo.withusgoat.com" target="_blank">가장 인기 있는 포장이사 서비스</a></li>
+                    <li><a href="https://movingbkindy.withusgoat.com" target="_blank">포장이사 견적비교 사이트 모음</a></li>
+                    <li><a href="https://movingckindw.withusgoat.com" target="_blank">이사 견적을 비교하는 현명한 방법</a></li>
+                    <li><a href="https://movingckindg.withusgoat.com" target="_blank">실시간 이사 비용 견적 받기</a></li>
+                    <li><a href="https://movingdkindk.withusgoat.com" target="_blank">성공적인 포장이사 진행 방법</a></li>
+                    <li><a href="https://movingckindy.withusgoat.com" target="_blank">포장이사업체 신뢰도 순위</a></li>
+                    <li><a href="https://movingbkindr.withusgoat.com" target="_blank">최신 포장이사 비용 트렌드 분석</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-3">
+                <h2>합리적인 이사 비용 절약 노하우</h2>
+                <a class="category-description" href="https://movingbkindv.withusgoat.com" target="_blank">
+                    숨겨진 비용 없이 투명하게 이사 비용을 계산하고 절약하는 핵심 비결을 확인하세요. 예산을 지키는 이사 계획의 시작입니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingakinda.withusgoat.com" target="_blank">손없는날 이사비용 차이점</a></li>
+                    <li><a href="https://movingbkindv.withusgoat.com" target="_blank">전반적인 이사 비용 구조 이해하기</a></li>
+                    <li><a href="https://movingdkindh.withusgoat.com" target="_blank">반포장이사 비용 상세 정보</a></li>
+                    <li><a href="https://movingdkindu.withusgoat.com" target="_blank">이사 사다리차 비용 가이드</a></li>
+                    <li><a href="https://movingckindc.withusgoat.com" target="_blank">원룸 이사 비용 합리적으로 책정하기</a></li>
+                    <li><a href="https://movingdkindb.withusgoat.com" target="_blank">포장이사 가격, 이것만 알면 끝!</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-4">
+                <h2>안전한 이삿짐 보관 & 창고 서비스</h2>
+                <a class="category-description" href="https://movingbkindq.withusgoat.com" target="_blank">
+                    집을 비워야 할 때, 새 집을 준비하는 동안 짐을 안전하게 맡길 수 있는 전문 보관 이사 서비스와 비용 정보를 담았습니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindq.withusgoat.com" target="_blank">전문 보관이사 서비스 소개</a></li>
+                    <li><a href="https://movingckindx.withusgoat.com" target="_blank">장기/단기 이삿짐 보관 방법</a></li>
+                    <li><a href="https://movingbkindt.withusgoat.com" target="_blank">이삿짐 보관 비용 계산법</a></li>
+                    <li><a href="https://movingdkindf.withusgoat.com" target="_blank">이삿짐 창고 및 컨테이너 보관 전문 업체</a></li>
+                    <li><a href="https://movingdkindt.withusgoat.com" target="_blank">신뢰할 수 있는 이사짐 보관업체 목록</a></li>
+                    <li><a href="https://movingbkindx.withusgoat.com" target="_blank">보관이사 비용과 절차 안내</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-5">
+                <h2>이사 전/후 완벽 준비 체크리스트</h2>
+                <a class="category-description" href="https://movingckindb.withusgoat.com" target="_blank">
+                    '무엇을 해야 할까?' 고민할 필요 없이, 시간 순서대로 따라 할 수 있는 이사 전후 필수 체크리스트를 제공합니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingckindb.withusgoat.com" target="_blank">이사 준비 종합 체크리스트</a></li>
+                    <li><a href="https://movingckindf.withusgoat.com" target="_blank">이사 전 꼭 확인해야 할 사항</a></li>
+                    <li><a href="https://movingdkindw.withusgoat.com" target="_blank">이사 전에 반드시 해야 할 일</a></li>
+                    <li><a href="https://movingdkindx.withusgoat.com" target="_blank">포장이사 준비 과정 A to Z</a></li>
+                    <li><a href="https://movingdkindi.withusgoat.com" target="_blank">이사가기 전 해야 할 일 상세 목록</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-6">
+                <h2>신뢰도 높은 이사업체 순위 및 추천</h2>
+                <a class="category-description" href="https://movingckindj.withusgoat.com" target="_blank">
+                    수많은 이사업체 중 나에게 맞는 곳을 고르는 방법과 실제 고객 후기로 검증된 업체 순위 정보를 모았습니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingckindj.withusgoat.com" target="_blank">이사업체별 순위 및 평가</a></li>
+                    <li><a href="https://movingbkindp.withusgoat.com" target="_blank">믿을 수 있는 이사짐센터 찾기</a></li>
+                    <li><a href="https://movingdkindd.withusgoat.com" target="_blank">지역별 이사업체 추천 목록</a></li>
+                    <li><a href="https://movingckindd.withusgoat.com" target="_blank">포장이사업체 선정 기준</a></li>
+                    <li><a href="https://movingckindz.withusgoat.com" target="_blank">이삿짐센터 이용 가이드</a></li>
+                    <li><a href="https://movingdkindv.withusgoat.com" target="_blank">이삿짐센터 이용 비용 비교</a></li>
+                </ul>
+            </div>
+
+             <div class="category-card card-color-7">
+                <h2>서울/경기 지역별 포장이사</h2>
+                <a class="category-description" href="https://movingekinde.withusgoat.com" target="_blank">
+                    수원, 은평구, 강북구 등 수도권 주요 지역의 특화된 이사 서비스와 전문 업체 정보를 만나보세요.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingekinde.withusgoat.com" target="_blank">수원 포장이사 전문 업체</a></li>
+                    <li><a href="https://movingckindo.withusgoat.com" target="_blank">은평구 이사 서비스 가이드</a></li>
+                    <li><a href="https://movingdkindp.withusgoat.com" target="_blank">강북구 포장이사 추천</a></li>
+                    <li><a href="https://movingekindb.withusgoat.com" target="_blank">강북구 이사 업체 목록</a></li>
+                    <li><a href="https://movingckindq.withusgoat.com" target="_blank">은평구 포장이사 업체 비교</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-8">
+                <h2>지방 주요 도시 이사업체</h2>
+                <a class="category-description" href="https://movingckindm.withusgoat.com" target="_blank">
+                    전주, 대구, 부산 등 지방 거점 도시에서 신뢰도 높은 이사 서비스를 제공하는 업체를 엄선했습니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingckindm.withusgoat.com" target="_blank">전주 포장이사 전문</a></li>
+                    <li><a href="https://movingdkindj.withusgoat.com" target="_blank">대구 이사업체 상세 정보</a></li>
+                    <li><a href="https://movingckinds.withusgoat.com" target="_blank">부산 이사업체 추천 리스트</a></li>
+                    <li><a href="https://movingckindp.withusgoat.com" target="_blank">대구 수성구 이사 업체 추천</a></li>
+                    <li><a href="https://movingekindf.withusgoat.com" target="_blank">전주 이사 서비스 비교</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-9">
+                <h2>원룸 & 소형 이사 맞춤 서비스</h2>
+                <a class="category-description" href="https://movingdkinda.withusgoat.com" target="_blank">
+                    1인 가구, 원룸, 오피스텔 이사에 최적화된 맞춤형 솔루션과 합리적인 비용을 제시하는 링크입니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingdkinda.withusgoat.com" target="_blank">원룸 포장이사 비용 절약 팁</a></li>
+                    <li><a href="https://movingdkinds.withusgoat.com" target="_blank">소형 이사 서비스 가이드</a></li>
+                    <li><a href="https://movingckindt.withusgoat.com" target="_blank">용달 이사 비용 및 절차</a></li>
+                    <li><a href="https://movingekindi.withusgoat.com" target="_blank">투룸 이사 비용 상세 비교</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-10">
+                <h2>상반기 월별 이삿날 (1월~4월)</h2>
+                <a class="category-description" href="https://movingbkindc.withusgoat.com" target="_blank">
+                    새해 첫 달부터 봄의 시작까지, 1월부터 4월의 이사하기 좋은 날짜를 미리 확인하고 계획을 세우세요.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindc.withusgoat.com" target="_blank">1월 이삿날 추천 목록</a></li>
+                    <li><a href="https://movingbkindd.withusgoat.com" target="_blank">2월 이삿날 가이드</a></li>
+                    <li><a href="https://movingbkindf.withusgoat.com" target="_blank">4월 이삿날 정보</a></li>
+                    <li><a href="https://movingbkinde.withusgoat.com" target="_blank">3월 이삿날 확인</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-11">
+                <h2>중반기 월별 이삿날 (5월~8월)</h2>
+                <a class="category-description" href="https://movingbkindg.withusgoat.com" target="_blank">
+                    화창한 봄날부터 무더운 여름까지, 5월부터 8월의 길일을 놓치지 않고 이사하세요.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindg.withusgoat.com" target="_blank">5월 이삿날 추천</a></li>
+                    <li><a href="https://movingbkindh.withusgoat.com" target="_blank">6월 이삿날 목록</a></li>
+                    <li><a href="https://movingbkindj.withusgoat.com" target="_blank">8월 이삿날 정보</a></li>
+                    <li><a href="https://movingbkindi.withusgoat.com" target="_blank">7월 이삿날 확인</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-12">
+                <h2>하반기 월별 이삿날 (9월~12월)</h2>
+                <a class="category-description" href="https://movingbkindk.withusgoat.com" target="_blank">
+                    풍성한 가을부터 한 해의 마무리까지, 9월부터 12월의 이사하기 좋은 날을 알려드립니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindk.withusgoat.com" target="_blank">9월 이삿날 가이드</a></li>
+                    <li><a href="https://movingbkindl.withusgoat.com" target="_blank">10월 이삿날 정보</a></li>
+                    <li><a href="https://movingbkindm.withusgoat.com" target="_blank">11월 이삿날 목록</a></li>
+                    <li><a href="https://movingbkindn.withusgoat.com" target="_blank">12월 이삿날 체크</a></li>
+                </ul>
+            </div>
+
+             <div class="category-card card-color-13">
+                <h2>강원/충청/기타 지역 포장이사</h2>
+                <a class="category-description" href="https://movingdkindn.withusgoat.com" target="_blank">
+                    춘천, 원주, 서산 등 주요 지방 도시의 신뢰할 수 있는 이사업체와 이사 정보를 제공합니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingdkindn.withusgoat.com" target="_blank">춘천 이사 전문가 추천</a></li>
+                    <li><a href="https://movingdkindz.withusgoat.com" target="_blank">원주 이사 서비스 안내</a></li>
+                    <li><a href="https://movingekindc.withusgoat.com" target="_blank">서산 포장이사 업체</a></li>
+                    <li><a href="https://movingdkindq.withusgoat.com" target="_blank">원주 포장이사 비용</a></li>
+                    <li><a href="https://movingekindh.withusgoat.com" target="_blank">대전 이사업체 비교</a></li>
+                </ul>
+            </div>
+
+             <div class="category-card card-color-14">
+                <h2>가성비 최고의 반포장이사</h2>
+                <a class="category-description" href="https://movingbkindu.withusgoat.com" target="_blank">
+                    짐 정리와 포장의 일부를 직접 처리하여 비용을 절약하는 반포장이사! 합리적인 이사 방법을 소개합니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingbkindu.withusgoat.com" target="_blank">반포장이사 서비스 특징</a></li>
+                    <li><a href="https://movingdkindh.withusgoat.com" target="_blank">반포장이사 비용 상세 분석</a></li>
+                    <li><a href="https://movingdkindm.withusgoat.com" target="_blank">1톤 트럭 이사 가이드</a></li>
+                    <li><a href="https://movingbkindv.withusgoat.com" target="_blank">전체 이사 비용 절감 전략</a></li>
+                </ul>
+            </div>
+
+            <div class="category-card card-color-15">
+                <h2>이사 준비의 모든 것</h2>
+                <a class="category-description" href="https://movingckindk.withusgoat.com" target="_blank">
+                    이사 날짜 결정부터 계약서 확인까지, 이사를 위해 알아야 할 필수적인 부가 정보와 팁을 제공합니다.
+                </a>
+                <ul class="link-list">
+                    <li><a href="https://movingckindk.withusgoat.com" target="_blank">성공적인 이사를 위한 준비 단계</a></li>
+                    <li><a href="https://movingckindu.withusgoat.com" target="_blank">이사 날짜 결정의 중요성</a></li>
+                    <li><a href="https://movingdkindc.withusgoat.com" target="_blank">이사 시 행정적으로 해야 할 일</a></li>
+                    <li><a href="https://movingbkindw.withusgoat.com" target="_blank">신뢰할 수 있는 이사업체 정보</a></li>
+                    <li><a href="https://movingckindv.withusgoat.com" target="_blank">이사 손없는날 의미</a></li>
+                </ul>
+            </div>
+
+        </section>
+
+        <footer style="text-align: center; padding: 30px 0; margin-top: 40px; border-top: 1px solid #E2E8F0; color: var(--color-text-light);">
+            <p>© 2026 이사 전문가 추천 정보. 모든 정보는 참고용이며, 실제 서비스 이용 전 반드시 확인하시기 바랍니다.</p>
+        </footer>
+    </div>
+
+</body>
 </html>
